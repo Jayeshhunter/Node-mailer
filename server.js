@@ -12,15 +12,15 @@ async function main() {
     service: "gmail",
     // true for 465, false for other ports
     auth: {
-      user: "jj6144@srmist.edu.in", // generated ethereal user
-      pass: "SRMworld$2468", // generated ethereal password
+      user: "YOUR MAIL ID HERE", // generated ethereal user
+      pass: "YOUR EMAIL PASSWORD", // generated ethereal password
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: "jj6144@srmist.edu.in", // sender address
-    to: "jayanandanjayesh942@gmail.com", // list of receivers
+    from: "YOUR EMAIL-ID", // sender address
+    to: "ALL OTHER EMAIL ADDRESS", // list of receivers
     subject: "Search Cross Event", // Subject line
     text: `Greetings, participant!
 
